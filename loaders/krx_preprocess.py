@@ -142,7 +142,7 @@ def __get_day_list__():
     return file_list
 
 
-def __get_norm_info__(path, day, ticker) -> (np.array, np.array):
+def __get_norm_info__(path, day, ticker) -> tuple[np.ndarray, np.ndarray]:
     filename = f'{ticker}-{day}.txt'
     tmp_path = os.path.join(path, filename)
     data = np.loadtxt(tmp_path)

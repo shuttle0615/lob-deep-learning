@@ -7,7 +7,7 @@ if __name__ == '__main__':
     dataset_type = 'fi2010'
     normalization = 'Zscore'
     lighten = True
-    model_type = 'lobster'
+    model_type = 'deeplob'
 
     T = 100
     k = 4
